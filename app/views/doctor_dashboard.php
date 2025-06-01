@@ -940,7 +940,7 @@ if (isset($_SESSION['error'])) {
                 
                 <div class="sidebar-profile mt-4 mb-3">
                     <div class="text-center">
-                        <img src="<?php echo !empty($doctor['avatar']) ? '../../'.htmlspecialchars($doctor['avatar']) : '../../assets/images/Doctors/gay.jpg'; ?>" alt="Avatar" class="sidebar-avatar mb-2">
+                        <img src="<?php echo !empty($doctor['avatar']) ? '../../'.htmlspecialchars($doctor['avatar']) : '../../assets/images/Doctors/avatar-truong-trong-tuan.png'; ?>" alt="Avatar" class="sidebar-avatar mb-2">
                         <h6 class="sidebar-name mb-1"><?php echo htmlspecialchars($doctor['name'] ?? 'Dr. Nguyễn Văn A'); ?></h6>
                         <span class="sidebar-specialty"><?php echo htmlspecialchars($doctor['specialty'] ?? 'Bác sĩ chuyên khoa'); ?></span>
                     </div>
@@ -1144,7 +1144,7 @@ if (isset($_SESSION['error'])) {
                                                     <tr>
                                                         <td>
                                                             <div class="d-flex align-items-center">
-                                                                <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
+                                                                <img src="../../assets/images/avt/avt01.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
                                                                 <div>
                                                                     <div class="fw-medium">
                                                                         <?php 
@@ -1277,7 +1277,7 @@ if (isset($_SESSION['error'])) {
                                                 foreach ($recent_patients as $patient):
                                             ?>
                                                 <div class="list-group-item d-flex align-items-center p-3">
-                                                    <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-3" width="40" height="40">
+                                                    <img src="../../assets/images/avt/avt02.jpg" alt="Avatar" class="rounded-circle me-3" width="40" height="40">
                                                     <div>
                                                         <h6 class="mb-0"><?php echo htmlspecialchars($patient['patient_name']); ?></h6>
                                                         <p class="small text-muted mb-0">Khám ngày <?php echo date('d/m/Y', strtotime($patient['last_date'])); ?></p>
@@ -1355,7 +1355,7 @@ if (isset($_SESSION['error'])) {
                                             <tr data-status="<?php echo $appointment['status']; ?>" data-appointment-id="<?php echo $appointment['id']; ?>">
                                                 <td>
                                                     <div class="d-flex align-items-center">
-                                                        <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
+                                                        <img src="../../assets/images/avt/avt03.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
                                                         <div>
                                                             <div class="fw-medium">
                                                                 <?php 
@@ -1479,7 +1479,7 @@ if (isset($_SESSION['error'])) {
                         <tr data-patient-id="<?php echo $patient['id']; ?>">
                             <td>
                                 <div class="d-flex align-items-center">
-                                    <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
+                                    <img src="../../assets/images/avt/avt04.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
                                     <div>
                                         <div class="fw-medium"><?php echo htmlspecialchars($patient['name']); ?></div>
                                         <div class="small text-muted">Bệnh nhân</div>
@@ -1592,7 +1592,7 @@ if (isset($_SESSION['error'])) {
                             <tr data-record-id="<?php echo $record['id']; ?>">
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
+                                        <img src="../../assets/images/avt/avt05.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
                                         <div>
                                             <div class="fw-medium"><?php echo htmlspecialchars($record['patient_name']); ?></div>
                                             <div class="small text-muted">Bệnh nhân</div>
@@ -1727,7 +1727,7 @@ if (isset($_SESSION['error'])) {
                             <tr data-prescription-id="<?php echo $prescription['id']; ?>">
                                 <td>
                                     <div class="d-flex align-items-center">
-                                        <img src="../../assets/images/avatar1.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
+                                        <img src="../../assets/images/avt/avt06.jpg" alt="Avatar" class="rounded-circle me-2" width="32" height="32">
                                         <div>
                                             <div class="fw-medium"><?php echo htmlspecialchars($prescription['patient_name']); ?></div>
                                             <div class="small text-muted">Bệnh nhân</div>
@@ -1792,7 +1792,7 @@ if (isset($_SESSION['error'])) {
                                 <div class="card mb-4">
                                     <div class="card-body text-center">
                                         <div class="avatar-wrapper mb-3">
-                                            <img id="profile-avatar" src="<?php echo !empty($doctor['avatar']) ? '../../'.htmlspecialchars($doctor['avatar']) : '../../assets/images/Doctors/gay.jpg'; ?>" 
+                                            <img id="profile-avatar" src="<?php echo !empty($doctor['avatar']) ? '../../'.htmlspecialchars($doctor['avatar']) : '../../assets/images/Doctors/045850-bac-si-da-lieu-hoai-thu.jpg'; ?>" 
                                                 alt="Avatar" class="rounded-circle img-fluid" style="width: 150px; height: 150px; object-fit: cover;">
                                             <div class="avatar-edit d-none">
                                                 <label for="avatar-upload" class="btn btn-sm btn-primary position-absolute bottom-0 end-0 rounded-circle">
